@@ -1,0 +1,44 @@
+.header-image {
+	width: 100% ;
+	height : 50% ;
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #00CCFF;/* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+	overflow: hidden;
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	height:50px;
+}
+.header-text
+{
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 350px;
+  text-align: center;
+}
+.header-text h1
+{
+	font-size: 90px;
+	padding-left: 250px;
+}
+.header-text h2
+{
+	font-size: 60px;
+	padding-left: 250px;
+}
+.container-fluid ul li:hover
+{
+  background-color: #0066FF;
+}
+img#header-image
+{
+	width: 100%;
+	height: 50%;
+}
